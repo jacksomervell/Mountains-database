@@ -6,4 +6,4 @@ Bundler.require
 require './models/mountain'
 require './app'
 
-run Mountain
+run Mountains

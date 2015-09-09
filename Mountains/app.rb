@@ -1,4 +1,4 @@
-class Mountain < Sinatra::Base
+class Mountains < Sinatra::Base
 
   # General route actions
   get '/' do
