@@ -79,7 +79,7 @@ main ul {
 .mountains .row, 
 .songs .row {
   clear: both;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.5);;
   padding: 10px;
   margin: 0 0 10px;
 }
