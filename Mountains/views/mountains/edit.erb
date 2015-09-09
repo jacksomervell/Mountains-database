@@ -1,0 +1,14 @@
+<h2>Edit Mountain</h2>
+
+<form action='/mountains/<%= "#{@mountain.id}" %>' method="post">
+  <label for="mountain[name]">Name:</label>
+  <input name="mountain[name]" value='<%= "#{@mountain.name}" %>'>
+
+  <label for="mountain[photo_url]">Photo URL:</label>
+  <input name="mountain[photo_url]" value='<%= "#{@mountain.photo_url}" %>'>
+
+  <label for="mountain[nationality]">Height:</label>
+  <input name="mountain[nationality]" value='<%= "#{@mountain.height}" %>'>
+
+  <input type="submit" value="Create">
+</form>
