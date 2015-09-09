@@ -1,5 +1,5 @@
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Patua One', cursive;
   line-height: 1.5;
   background: url("http://img03.deviantart.net/332d/i/2008/213/d/7/mountain_fire_by_heeeeman.jpg") ;
   background-size: cover;
@@ -9,8 +9,12 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0 0 20px;
 }
 
-h1, h2 {
+h1 {
   font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 a {
@@ -69,7 +73,7 @@ main ul {
 }
 
 .mountains .row {
-  height: 100px;
+  height: 150px;
 }
 
 .songs .row {
@@ -86,7 +90,7 @@ main ul {
 
 .mountains .row img {
   float: left;
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .mountains .row ul {
