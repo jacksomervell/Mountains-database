@@ -45,10 +45,10 @@ class Mountains < Sinatra::Base
   end
 
   # update
-  put '/mountains/:id' do
+  post '/mountains/:id' do
     @mountain = Mountain.find(params[:id])
     if @mountain.update_attributes(params[:mountain])
-      redirect("/mountains/#{mountain.id}")
+      redirect("/mountains/#{@mountain.id}")
     else
       erb(:"mountains/edit")
     end

@@ -1,7 +1,8 @@
 body {
   font-family: 'Slabo 27px', serif;
   line-height: 1.5;
-  background: #f1f4f6;
+  background: url("http://img03.deviantart.net/332d/i/2008/213/d/7/mountain_fire_by_heeeeman.jpg") ;
+  background-size: cover;
 }
 
 h1,h2,h3,h4,h5,h6 {
