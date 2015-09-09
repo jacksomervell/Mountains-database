@@ -55,7 +55,7 @@ class Mountains < Sinatra::Base
   end
 
   # delete
-  delete '/mountains/:id/delete' do
+  post '/mountains/:id/delete' do
     @mountain = Mountain.find(params[:id])
     if @mountain.destroy
       redirect('/mountains')

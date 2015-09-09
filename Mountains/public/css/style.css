@@ -58,7 +58,7 @@ main, footer {
   margin: 40px auto;
 }
 
-main .artists {
+main .mountains {
   margin: 20px 0;
 }
 
@@ -67,7 +67,7 @@ main ul {
   padding: 0;
 }
 
-.artists .row {
+.mountains .row {
   height: 100px;
 }
 
@@ -75,7 +75,7 @@ main ul {
   height: 30px;
 }
 
-.artists .row, 
+.mountains .row, 
 .songs .row {
   clear: both;
   background: #fff;
@@ -83,18 +83,18 @@ main ul {
   margin: 0 0 10px;
 }
 
-.artists .row img {
+.mountains .row img {
   float: left;
   max-height: 100px;
 }
 
-.artists .row ul {
+.mountains .row ul {
   float: left;
   margin: 0 0 0 10px;
 }
 
-.artists .row h2, 
-.artists .row h2 a {
+.mountains .row h2, 
+.mountains .row h2 a {
   font-size: 20px;
   margin: 0 0 10px;
   text-decoration: none;
@@ -102,8 +102,8 @@ main ul {
 
 .songs .row ul li a,
 .songs .row ul li button {
-.artists .row ul li a,
-.artists .row ul li button {
+.mountains .row ul li a,
+.mountains .row ul li button {
   color: black;
   background:none!important;
   border:none; 
